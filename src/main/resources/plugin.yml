@@ -1,0 +1,13 @@
+name: CDPAPI
+version: '${project.version}'
+main: com.artyz.cdpapi.CDPAPI
+api-version: 1.20
+author: "ARTYz"
+depend:
+  - PlaceholderAPI
+commands:
+  countdown:
+    description: "Countdown Command"
+  countdownscore:
+    description: Displays the countdown on a scoreboard
+    usage: /countdownscore
